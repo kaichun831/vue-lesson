@@ -12,7 +12,7 @@
 <script setup>
 import Page from '@/components/Page.vue'
 import { ref } from 'vue'
-const isShowFooter = ref(false)
+const isShowFooter = ref(true)
 const isShowHeader = ref(false)
 
 
