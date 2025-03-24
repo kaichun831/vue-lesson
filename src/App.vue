@@ -15,6 +15,9 @@ import { ref } from 'vue'
 const isShowFooter = ref(true)
 const isShowHeader = ref(false)
 
+function method1(params) {
+  
+}
 
 </script>
 
