@@ -12,13 +12,10 @@
 <script setup>
 import Page from '@/components/Page.vue'
 import { ref } from 'vue'
-const isShowFooter = ref(true)
-const isShowHeader = ref(true)
+const isShowFooter = ref(false)
+const isShowHeader = ref(false)
 
-function method1(params) {
-  
-}
-
+function method1(params) {}
 </script>
 
 <style scoped>

@@ -23,9 +23,7 @@ function getfullName() {
   return `${firstName.value} ${lastName.value}`
 }
 
-function method2(){
-  
-}
+function method2() {}
 // onMounted(() => {
 //   console.log('Mounted')
 //   setTimeout(() => {
