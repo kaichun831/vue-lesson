@@ -44,6 +44,7 @@ import PageTwo from './PageTwo.vue'
 import Cookies from 'js-cookie'
 import { i18n } from '@/main.js'
 import { ref, onMounted, computed, onUnmounted, watch } from 'vue'
+import AppConfig from '@/appConfig'
 
 var tabs = [PageOne, PageTwo]
 const currentScreen = ref(0)
@@ -54,9 +55,6 @@ const userName = ref('')
 
 const oldPassword = ref('qsc236578')
 const newPassword = ref('')
-
-
-
 
 
 

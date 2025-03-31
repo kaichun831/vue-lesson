@@ -4,8 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --mode development",
+    "staging": "vite --mode staging",
+    "release": "vite --mode production",
+    "build": "vite build --mode development",
+    "build-staging": "vite build --mode staging",
+    "build-release": "vite build --mode production",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"

@@ -10,6 +10,16 @@
 </template>
 
 <script setup>
+
+//寫法一
+console.log(import.meta.env.VITE_API_URL)
+//寫法二
+const {VITE_API_URL,MODE  } = import.meta.env
+console.log(import.meta.env)
+if(MODE==='Production'){
+  
+}
+
 import Page from '@/components/Page.vue'
 import { ref } from 'vue'
 const isShowFooter = ref(false)

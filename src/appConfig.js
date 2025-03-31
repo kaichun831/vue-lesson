@@ -6,7 +6,6 @@
 class AppConfig {
   static #instance = null
   #isLogin = false
-
   static getInstance() {
     if (AppConfig.#instance != null) {
       return AppConfig.#instance
