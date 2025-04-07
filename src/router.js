@@ -6,11 +6,12 @@ import NotFound from './screens/NotFoundScreen.vue'
 import Backend from './screens/Backend.vue'
 import AppConfig from './appConfig.js'
 import Production from './screens/Production.vue'
+import Father from './screens/Father.vue'
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => Production,
+    component: () => Father,
   },
   {
     path: '/about',
