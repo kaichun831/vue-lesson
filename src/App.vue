@@ -4,7 +4,7 @@
   <!-- </page> -->
   <!-- <main-screen></main-screen> -->
 
-  <page :isShowHeader="isShowFooter" :isShowFooter="isShowHeader">
+  <page>
     <router-view></router-view>
   </page>
 </template>
@@ -22,8 +22,7 @@ if(MODE==='Production'){
 
 import Page from '@/components/Page.vue'
 import { ref } from 'vue'
-const isShowFooter = ref(false)
-const isShowHeader = ref(false)
+
 
 function method1(params) {}
 </script>

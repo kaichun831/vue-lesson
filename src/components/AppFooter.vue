@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" v-if="show">
+  <footer class="footer">
     <div class="wrapper">
       <p>© 2023 - All rights reserved</p>
     </div>
@@ -7,15 +7,8 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
 
-defineProps({
-  show: {
-    type: Boolean, //型態
-    default: true, //預設值
-    required: false, //必填與否
-  },
-})
+
 </script>
 <style scoped lang="scss">
 .footer {

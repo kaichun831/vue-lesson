@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => Father,
+    component: () => MainScreen,
   },
   {
     path: '/about',

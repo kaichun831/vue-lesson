@@ -1,18 +1,11 @@
 <template>
-  <header class="header" v-if="show">
+  <header class="header">
     <img alt="Vue logo" class="logo" src=".././assets/images/pretty.png" width="50" height="50" />
   </header>
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
 
-defineProps({
-  show: {
-    type: Boolean,
-    default: true,
-  },
-})
 </script>
 
 <style scoped lang="scss">
